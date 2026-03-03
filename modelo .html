@@ -32,39 +32,75 @@
       margin-bottom: 12px;
     }
 
-    h1, h2 {
-      color:rgb(255, 221, 0);
+    h1,
+    h2 {
+      color: rgb(255, 221, 0);
       margin: 0 0 8px;
     }
 
-  .header-interno p {
-    margin: 0;
-    color: #c0c2c5;
-  }
-p{
-  color:rgb(204, 201, 173);
-}
-#apresentacao{
-  border-left: 8px solid rgb(255, 221, 0);
-}
+    .header-interno p {
+      margin: 0;
+      color: #c2c1c1;
+    }
 
-.nav{
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  gap: 10px;
-  flex-wrap: nowrap;
-}
-.nav-link{
-  display: inline-block;
-  text-decoration: none;
-  color: black;
-  background: rgb(255, 221, 0);
-  padding: 8px 10px;
-  border-radius: 10px;
-  font-weight: 700;
-}
+    p {
+      color: rgb(239, 243, 220);
+    }
+
+    #apresentacao {
+      border-left: 8px solid rgb(255, 221, 0);
+    }
+
+    .nav {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 10px;
+      flex-wrap: nowrap;
+    }
+
+    .nav-link {
+      display: inline-block;
+      text-decoration: none;
+      color: black;
+      background: rgb(255, 221, 0);
+      padding: 8px 10px;
+      border-radius: 10px;
+      font-weight: 700;
+    }
+
+    .nav-link:hover {
+      background: rgb(255, 200, 0);
+    }
+
+    .gallery {
+      width: 920px;
+      display: flex;
+      gap: 10px;
+      flex-wrap: nowrap;
+    }
+
+    .bat-img {
+      width: 283px;
+      height: 175px;
+      border: 2px solid rgb(221, 220, 143);
+      border-radius: 10px;
+    }
+    
+    footer p {
+      color: rgb(255, 0, 0);
+      margin: 6px 0 0;
+    }
+
+    .link{
+      color: rgb(255, 251, 0);
+      text-decoration: none;
+    }
+
+    .link:hover{
+      text-decoration:  underline;
+    }
   </style>
 </head>
 
@@ -73,7 +109,7 @@ p{
   <!-- TODO 01: HEADER com H1 (título) e P (subtítulo) -->
   <div class="container" id="pagina">
     <header class="box" id="cabeçalho">
-      <div class="header-intero">
+      <div class="header-interno">
         <h1 class="titulo">Site do Batman</h1>
         <p>
           Bem vindo a Gotham City: <strong>vigilância</strong>, <em>tecnologia</em> e estratédia.
@@ -109,9 +145,9 @@ p{
       <section class="box" id="galeria">
         <h2>galeria</h2>
         <div class="gallery" id="galeria-imagens">
-          <img class="bat-img" src="images.jfif" alt="Batman simbolo." width="220" height="120">
-          <img class="bat-img" src="batman de lado.jpg" alt="Batman de lado." width="220" height="120">
-          <img class="bat-img" src="Batman aura.jpg" alt="Batman aura." width="220" height="120">
+          <img class="bat-img" src="images.jfif" alt="Batman simbolo.">
+          <img class="bat-img" src="batman de lado.jpg" alt="Batman de lado.">
+          <img class="bat-img" src="Batman aura.jpg" alt="Batman aura.">
         </div>
       </section>
     </main>
